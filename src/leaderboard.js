@@ -31,9 +31,9 @@ const Leaderboard = () => {
         <thead>
           <tr>
             <th className="py-3 px-4 text-gray-600">RANK</th>
-            <th className="py-3 px-4 text-gray-600">USER</th>
-            <th className="py-3 px-4 text-gray-600">RATING</th>
-            <th className="py-3 px-4 text-gray-600">MAX RATING</th>
+            <th className="py-3 px-4 text-gray-600 text-left">USER</th>
+            <th className="py-3 px-4 text-gray-600 ">RATING</th>
+             
           </tr>
         </thead>
         <tbody>
@@ -47,7 +47,7 @@ const Leaderboard = () => {
                 {user.handle}
               </td>
               <td className="py-3 px-4 text-gray-800">{user.rating}</td>
-              <td className="py-3 px-4 text-gray-800">{user.maxRating}</td>
+               
             </tr>
           ))}
         </tbody>

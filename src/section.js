@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Section = () => {
   return (
-    <section className="py-20 mt-20 bg-[#0f1112]">
+    <section className="py-20 mt-20 h-[500px] bg-[#0f1112]">
        
       <div className="container mx-auto px-4 text-center">
       <h1 className="text-6xl  tracking-tighter py-4 sm:text-4xl md:text-5xl text-center bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-orange-500 to-red-5006" style={{ fontFamily: "Limelight, sansserif",fontSize:"65px"}}>

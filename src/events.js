@@ -17,7 +17,7 @@ const Events = () => {
             <div className='absolute inset-0 backdrop-blur-md bg-black/30'></div>
             <div className='relative z-10 p-4'>
               <h2 className='text-xl sm:text-2xl font-semibold mb-4 text-[#b84f53]'>Galactic Code Clash</h2>
-              <button className='p-2 bg-headerorange text-white rounded-xl mb-4 w-full'>3rd September</button>
+              <button className='p-2 bg-headerorange text-white rounded-xl mb-4 w-full'>21st November</button>
               <p className='text-sm sm:text-base text-white'>
                 Gear up for an epic coding duel with a twist! In this themed competition, solve problems inspired by Star Wars, and may the best coder harness the Force to claim victory!
               </p>
@@ -28,7 +28,7 @@ const Events = () => {
             <div className='absolute inset-0 backdrop-blur-md bg-black/30'></div>
             <div className='relative z-10 p-4'>
               <h2 className='text-[23px] sm:text-[23px] font-semibold mb-4 text-[#ff2415]'>Algorithmic Speed Dating</h2>
-              <button className='p-2 bg-headerorange text-white rounded-xl mb-4 w-full'>17th September</button>
+              <button className='p-2 bg-headerorange text-white rounded-xl mb-4 w-full'>6th February</button>
               <p className='text-sm sm:text-base'>
                 Jump into our Algorithm Speed Dating event! Tackle quick, timed coding challenges while rotating through different problems and partners. Test your skills, adapt to various scenarios, and enjoy a dynamic coding experience!
               </p>
@@ -39,7 +39,7 @@ const Events = () => {
             <div className='absolute inset-0 backdrop-blur-md bg-black/30'></div>
             <div className='relative z-10 p-4'>
               <h2 className='text-xl sm:text-2xl font-semibold mb-4'>Jutsu for Algorithms</h2>
-              <button className='p-2 bg-headerorange text-white rounded-xl mb-4 w-full'>17th September</button>
+              <button className='p-2 bg-headerorange text-white rounded-xl mb-4 w-full'>21st August</button>
               <p className='text-sm sm:text-base text-white'>
                 Learn about algorithmic problem-solving techniques inspired by Naruto's jutsus. Discover how to use creative and strategic approaches to tackle complex coding challenges like a true shinobi.
               </p>

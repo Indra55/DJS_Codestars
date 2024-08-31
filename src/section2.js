@@ -45,7 +45,6 @@ const Section2 = () => {
               Our platform offers a comprehensive library of learning materials ranging from beginner tutorials to advanced courses in
               various programming languages and technologies. 
               Attend live workshops hosted by industry experts, participate in coding boot camps, and gain hands-on experience through practical projects.
-              Whether you're looking to master the basics or dive into specialized fields, our resources are tailored to meet your learning goals.
             </p>
           </div>
         </div>

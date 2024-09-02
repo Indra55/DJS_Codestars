@@ -8,11 +8,11 @@ const Leaderboard = () => {
     const fetchLeaderboard = async () => {
       try {
         const response = await axios.get('https://codeforces.com/api/user.ratedList');
-        console.log(response.data.result); // Log all users
+        console.log(response.data.result);  
         const filteredUsers = response.data.result.filter(user => 
           user.organization && user.organization.toLowerCase() === 'dwarkadas j. sanghvi college of engineering'.toLowerCase()
         );
-        console.log(filteredUsers); // Log filtered users
+        console.log(filteredUsers);
         const sortedUsers = filteredUsers.sort((a, b) => b.rating - a.rating);
         setUsers(sortedUsers.slice(0, 5));  
       } catch (error) {
@@ -54,9 +54,9 @@ const Leaderboard = () => {
       </table>
       <p className='text-right m-0 p-0 '>(*of Dwarkadas J. Sanghvi College of Engineering)</p>
       <div className="text-center mt-6">
-        <button className="bg-orange-500 text-white py-2 px-4 rounded-lg shadow hover:bg-orange-600">
+        <a className="bg-orange-500 text-white py-2 px-4 rounded-lg shadow hover:bg-orange-600" href='https://codeforces.com/ratings/organization/2663' target='_blank' rel="noopener noreferrer">
           View Full Leaderboard
-        </button>
+        </a>
       </div>
     </div>
   );
